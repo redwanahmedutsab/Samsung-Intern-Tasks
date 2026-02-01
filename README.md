@@ -102,7 +102,3 @@ A technical blog article explaining how to develop an Android application that r
 ## 👤 Author
 
 **Redwan Ahmed Utsab**
-
----
-
-Thank you for reviewing my submission.
