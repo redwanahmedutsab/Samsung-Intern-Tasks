@@ -106,6 +106,3 @@ A technical blog article explaining how to develop an Android application that r
 ---
 
 Thank you for reviewing my submission.
-
-
-⸻
