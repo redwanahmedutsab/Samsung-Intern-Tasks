@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:autoSizeMaxTextSize="36sp"
+        android:autoSizeMinTextSize="18sp"
+        android:autoSizeTextType="uniform"
+        android:background="#E0E0E0"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="0"
+        android:textSize="32sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:useDefaultMargins="true">
+
+        <Button
+            style="@style/CalcButton"
+            android:text="7" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="8" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="9" />
+
+        <Button
+            style="@style/CalcButton.Operator"
+            android:text="÷" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="4" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="5" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="6" />
+
+        <Button
+            style="@style/CalcButton.Operator"
+            android:text="×" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="1" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="2" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="3" />
+
+        <Button
+            style="@style/CalcButton.Operator"
+            android:text="-" />
+
+        <Button
+            style="@style/CalcButton"
+            android:text="0" />
+
+        <Button
+            style="@style/CalcButton.Clear"
+            android:text="C" />
+
+        <Button
+            style="@style/CalcButton.Equals"
+            android:text="=" />
+
+        <Button
+            style="@style/CalcButton.Operator"
+            android:text="+" />
+
+    </GridLayout>
+</LinearLayout>
