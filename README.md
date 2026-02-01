@@ -7,6 +7,7 @@ All tasks are implemented using **Android (Java)** following clean code practice
 
 ## 📁 Repository Structure
 
+```text
 Samsung-Intern-Assessment/
 │
 ├── Task 01/
@@ -19,7 +20,6 @@ Samsung-Intern-Assessment/
 │   └── android-sensor-reader.md
 │
 └── README.md
-
 ---
 
 ## ✅ Task 01 – Calculator Application
