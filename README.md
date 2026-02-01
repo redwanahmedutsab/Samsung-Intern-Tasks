@@ -7,6 +7,7 @@ All tasks are implemented using **Android (Java)** following clean code practice
 
 ## 📁 Repository Structure
 
+```md
 ```text
 Samsung-Intern-Assessment/
 │
